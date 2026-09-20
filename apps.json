@@ -1,0 +1,196 @@
+[
+  {
+    "id": "certisign-desktopid",
+    "nome": "Certisign DesktopID (Certificado Digital)",
+    "categoria": "Certificado Digital",
+    "padrao": false,
+    "url": "https://drivers.certisign.com.br/DesktopID/Windows/SetupDesktopID.exe",
+    "argumentos": "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART"
+  },
+  {
+    "id": "token-epass2003",
+    "nome": "Driver Token ePass 2003 (Feitian / Certisign)",
+    "categoria": "Certificado Digital",
+    "padrao": false,
+    "url": "https://drivers.certisign.com.br/midias/tokens/e-pass/ePass2003_CertiSign_20170511.exe",
+    "argumentos": "/S"
+  },
+  {
+    "id": "token-safesign",
+    "nome": "Gerenciador Token SafeSign (GD StarSign 64 bits)",
+    "categoria": "Certificado Digital",
+    "padrao": false,
+    "url": "https://drivers.certisign.com.br/midias/gerenciadores/safesign/64bits/SafeSignIC30124-x64-win-tu-admin.exe",
+    "argumentos": "/s /v\"/qn\""
+  },
+  {
+    "id": "token-safenet",
+    "nome": "Gerenciador Token SafeNet 5110 (SAC 10.6 64 bits)",
+    "categoria": "Certificado Digital",
+    "padrao": false,
+    "url": "https://drivers.certisign.com.br/midias/tokens/safenet/64bits/certisign10.6-x64-10.6.exe",
+    "argumentos": "/s /v\"/qn\""
+  },
+  {
+    "id": "jre8",
+    "nome": "Java Runtime Environment 8 (JRE 8)",
+    "categoria": "Certificado Digital",
+    "padrao": true
+  },
+  {
+    "id": "googlechrome",
+    "nome": "Google Chrome",
+    "categoria": "Navegadores",
+    "padrao": true
+  },
+  {
+    "id": "firefox",
+    "nome": "Mozilla Firefox",
+    "categoria": "Navegadores",
+    "padrao": false
+  },
+  {
+    "id": "brave",
+    "nome": "Brave Browser",
+    "categoria": "Navegadores",
+    "padrao": false
+  },
+  {
+    "id": "opera-gx",
+    "nome": "Opera GX",
+    "categoria": "Navegadores",
+    "padrao": false
+  },
+  {
+    "id": "anydesk.install",
+    "nome": "AnyDesk (Acesso Remoto)",
+    "categoria": "Acesso Remoto",
+    "padrao": true
+  },
+  {
+    "id": "teamviewer",
+    "nome": "TeamViewer",
+    "categoria": "Acesso Remoto",
+    "padrao": false
+  },
+  {
+    "id": "adobereader",
+    "nome": "Adobe Acrobat Reader DC (PDF)",
+    "categoria": "Documentos e PDF",
+    "padrao": true
+  },
+  {
+    "id": "libreoffice-fresh",
+    "nome": "LibreOffice",
+    "categoria": "Documentos e PDF",
+    "padrao": false
+  },
+  {
+    "id": "7zip",
+    "nome": "7-Zip",
+    "categoria": "Utilitários",
+    "padrao": true
+  },
+  {
+    "id": "winrar",
+    "nome": "WinRAR",
+    "categoria": "Utilitários",
+    "padrao": false
+  },
+  {
+    "id": "notepadplusplus",
+    "nome": "Notepad++",
+    "categoria": "Utilitários",
+    "padrao": true
+  },
+  {
+    "id": "lightshot",
+    "nome": "Lightshot (Captura de Tela)",
+    "categoria": "Utilitários",
+    "padrao": false
+  },
+  {
+    "id": "powertoys",
+    "nome": "Microsoft PowerToys",
+    "categoria": "Utilitários",
+    "padrao": false
+  },
+  {
+    "id": "whatsapp",
+    "nome": "WhatsApp Desktop",
+    "categoria": "Comunicação",
+    "padrao": true
+  },
+  {
+    "id": "telegram",
+    "nome": "Telegram Desktop",
+    "categoria": "Comunicação",
+    "padrao": false
+  },
+  {
+    "id": "discord",
+    "nome": "Discord",
+    "categoria": "Comunicação",
+    "padrao": true
+  },
+  {
+    "id": "zoom",
+    "nome": "Zoom Meetings",
+    "categoria": "Comunicação",
+    "padrao": false
+  },
+  {
+    "id": "vlc",
+    "nome": "VLC Media Player",
+    "categoria": "Mídia",
+    "padrao": true
+  },
+  {
+    "id": "spotify",
+    "nome": "Spotify",
+    "categoria": "Mídia",
+    "padrao": true
+  },
+  {
+    "id": "obs-studio",
+    "nome": "OBS Studio",
+    "categoria": "Mídia",
+    "padrao": false
+  },
+  {
+    "id": "vscode",
+    "nome": "Visual Studio Code",
+    "categoria": "Desenvolvimento",
+    "padrao": true
+  },
+  {
+    "id": "git",
+    "nome": "Git for Windows",
+    "categoria": "Desenvolvimento",
+    "padrao": true
+  },
+  {
+    "id": "nodejs-lts",
+    "nome": "Node.js (LTS)",
+    "categoria": "Desenvolvimento",
+    "padrao": false
+  },
+  {
+    "id": "python",
+    "nome": "Python 3",
+    "categoria": "Desenvolvimento",
+    "padrao": false
+  },
+  {
+    "id": "postman",
+    "nome": "Postman",
+    "categoria": "Desenvolvimento",
+    "padrao": false
+  },
+  {
+    "id": "steam",
+    "nome": "Steam",
+    "categoria": "Jogos",
+    "padrao": false
+  }
+]

@@ -1,0 +1,13 @@
+# Logs
+*.log
+logs/
+
+# Temporários e backups
+*.bak
+*.tmp
+*.temp
+
+# Configurações de IDE
+.vs/
+.vscode/
+.idea/
