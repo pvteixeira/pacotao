@@ -1,26 +1,31 @@
 # 🚀 Pacotão - Instalador em Lote para Windows
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-pvteixeira%2Fpacotao-181717?logo=github&logoColor=white)](https://github.com/pvteixeira/pacotao)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/pvteixeira/pacotao)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011%20(64--bit)-0078D6?logo=windows&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B%20Nativo-5391FE?logo=powershell&logoColor=white)
 ![Chocolatey](https://img.shields.io/badge/Chocolatey-Package%20Manager-80B5EA?logo=chocolatey&logoColor=white)
 ![Build](https://img.shields.io/badge/Build-Standalone%20100%25-success?logo=windows)
 ![Interface](https://img.shields.io/badge/GUI-Windows%20Forms%20(Dark%20%2F%20Modern)-2ea44f)
 
-O **Pacotão** é uma ferramenta desktop profissional e intuitiva para técnicos de suporte e administradores de TI. Ele automatiza a seleção, o download e a instalação sequencial de aplicativos essenciais, navegadores, utilitários, drivers e softwares para certificados digitais através do **Chocolatey** e de instaladores oficiais diretos.
+O **Pacotão** é uma ferramenta **Open-Source** para técnicos de suporte e administradores de TI. Ele automatiza a seleção, o download e a instalação sequencial de aplicativos essenciais, navegadores, utilitários, drivers e softwares para certificados digitais através do **Chocolatey** e de instaladores oficiais diretos.
 
 ---
 
 ## 📁 Estrutura do Projeto
 
-O repositório e a pasta de distribuição foram organizados de forma limpa e direta:
+O repositório e a pasta de distribuição foram organizados de forma limpa e modular:
 
 ```text
 d:\Install_app\
 ├── 🚀 Pacotao.exe       # Executável único standalone (com motor embutido e UAC nativo)
 ├── 📋 apps.json         # Catálogo personalizável de softwares e drivers (31 itens)
 ├── 📖 README.md         # Documentação e manual de uso
+├── 📜 LICENSE           # Licença Open-Source (MIT)
+├── 🤝 CONTRIBUTING.md   # Guia de contribuição da comunidade
 ├── 🙈 .gitignore        # Arquivos ignorados pelo Git
+├── 📂 .github/          # Modelos de Issues para sugestão de programas e relatos de bugs
 └── 📂 src/              # Código-fonte completo para auditoria e desenvolvimento
     ├── ⚙️ Pacotao.ps1   # Motor da aplicação em PowerShell 5.1 e Windows Forms
     ├── 🖥️ Launcher.cs   # Inicializador nativo C# (.NET Framework)
@@ -147,3 +152,24 @@ Se você editar o código em `src/Pacotao.ps1` ou `src/Launcher.cs` e quiser ger
     /out:'Pacotao.exe' `
     'src\Launcher.cs'
 ```
+
+---
+
+## 🤝 Como Contribuir
+
+Contribuições da comunidade são muito bem-vindas! Você pode sugerir novos aplicativos, reportar problemas ou propor melhorias de código.
+
+Consulte o nosso **[Guia de Contribuição (CONTRIBUTING.md)](CONTRIBUTING.md)** para instruções passo a passo sobre como enviar um Pull Request.
+
+---
+
+## 📄 Licença
+
+Este projeto é de código aberto e está licenciado sob a **[Licença MIT](LICENSE)**. Você é livre para utilizar, modificar e distribuir conforme desejar.
+
+---
+
+## 👤 Autor
+
+Desenvolvido por **Pedro Victor Teixeira** ([@pvteixeira](https://github.com/pvteixeira)).
+Se este projeto foi útil para você, deixe uma ⭐ no repositório!
